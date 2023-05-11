@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  background-color: rebeccapurple;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.clock {
+  display: flex;
+}
+.clock div {
+  margin: 5px;
+}
+h2 {
+  font-size: 14px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+span {
+  background-color: aqua;
+  height: 80px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.3);
+  font-size: 40px;
+  text-transform: uppercase;
+}
+#text {
+  background-color: slateblue;
+  height: 30px;
+  font-size: 15px;
+}
+#ampm {
+  font-size: 15px;
+  background-color: goldenrod;
+  height: 30px;
+  position: relative;
+  top: 79px;
+  width: 60px;
+}
